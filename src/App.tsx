@@ -19,8 +19,8 @@ function App() {
           <article id="lista-opcoes">
             <ul>
               <li>Home</li>
-              <li>Sobre</li>
-              <li>Serviços</li>
+              <li><a href="#infos-footer">Sobre</a></li>
+              <li><a href="#lista-servicos">Serviços</a></li>
               <li>Contato</li>
             </ul>
           </article>
@@ -92,12 +92,6 @@ function App() {
             >
               <h3>Acessórios</h3>
               <p>Venda de acessórios eletrônicos de alta qualidade para complementar seus dispositivos.</p>
-              <ul>
-                <li>Carregadores</li>
-                <li>Capas protetoras</li>
-                <li>Fones de ouvido</li>
-                <li>Cabos e adaptadores</li>
-              </ul>
             </motion.div>
 
             <motion.div
